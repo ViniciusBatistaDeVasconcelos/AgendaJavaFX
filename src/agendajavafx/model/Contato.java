@@ -21,6 +21,9 @@ public class Contato {
         this.email = email;
     }
 
+    public Contato() {
+    }
+
     public int getId() {
         return id;
     }

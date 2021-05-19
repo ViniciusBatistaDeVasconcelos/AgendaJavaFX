@@ -73,9 +73,9 @@
                                 <Label fx:id="labelEmail" text="--" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                             </children>
                         </GridPane>
-                        <Button fx:id="btnExcluir" layoutX="14.0" layoutY="279.0" mnemonicParsing="false" onAction="#excluirContato" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: #cf7070;" text="Excluir" />
-                        <Button fx:id="btnAlterar" layoutX="148.0" layoutY="279.0" mnemonicParsing="false" onAction="#alterarContato" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: #81cf70;" text="Alterar" />
-                        <Button fx:id="btnGravar" layoutX="14.0" layoutY="323.0" mnemonicParsing="false" onAction="#gravarContato" prefHeight="31.0" prefWidth="263.0" style="-fx-background-color: #709bcf;" text="Cadastrar" />
+                        <Button fx:id="btnExcluir" layoutX="14.0" layoutY="279.0" mnemonicParsing="false" onAction="#handleExcluirContato" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: #cf7070;" text="Excluir" />
+                        <Button fx:id="btnAlterar" layoutX="148.0" layoutY="279.0" mnemonicParsing="false" onAction="#handleAlterarContato" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: #81cf70;" text="Alterar" />
+                        <Button fx:id="btnGravar" layoutX="14.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleGravarContato" prefHeight="31.0" prefWidth="263.0" style="-fx-background-color: #709bcf;" text="Cadastrar" />
 
                     </children>
                 </AnchorPane>
